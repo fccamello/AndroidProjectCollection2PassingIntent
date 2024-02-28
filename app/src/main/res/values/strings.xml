@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection2</string>
+    <string name="btn_return">Return Button</string>
+    <string name="btn_toast">Toast Button</string>
+    <string name="btn_changebg">Change Background</string>
+
+
+</resources>
