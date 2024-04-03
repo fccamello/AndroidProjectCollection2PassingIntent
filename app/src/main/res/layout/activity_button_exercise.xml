@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlVar1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_button_exercise">
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="171dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="Close Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_changebtn"
+        android:layout_width="166dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Change Button Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_changebg" />
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="166dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btn_toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClose" />
+
+    <Button
+        android:id="@+id/btnDisappear"
+        android:layout_width="166dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:text="Disappear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_changebtn"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <Button
+        android:id="@+id/btn_changebg"
+        android:layout_width="166dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:text="Change Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnToast" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

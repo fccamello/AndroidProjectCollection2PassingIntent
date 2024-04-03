@@ -10,72 +10,68 @@
     tools:layout_editor_absoluteY="-13dp">
 
 
-    <Button
-        android:id="@+id/btn_LayoutExercise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Layout Exercise"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
+        tools:layout_editor_absoluteY="0dp">
 
-    <Button
-        android:id="@+id/btn_changebg"
-        android:layout_width="166dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="20dp"
-        android:text="Change Background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnToast" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnClose"
-        android:layout_width="171dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="24dp"
-        android:text="Close Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_LayoutExercise" />
 
-    <Button
-        android:id="@+id/btn_changebtn"
-        android:layout_width="166dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="24dp"
-        android:text="Change Button Background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_changebg" />
+            <Button
+                android:id="@+id/btn_LayoutExercise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:text="Layout Exercise" />
 
-    <Button
-        android:id="@+id/btnDisappear"
-        android:layout_width="166dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="32dp"
-        android:text="Disappear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_changebtn" />
+            <Button
+                android:id="@+id/btnButtonEx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Button Exercise" />
 
-    <Button
-        android:id="@+id/btnToast"
-        android:layout_width="166dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/btn_toast"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnClose" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Calculator" />
+
+            <Button
+                android:id="@+id/btnMidterms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Midterms" />
+
+            <Button
+                android:id="@+id/btnMatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Match 3" />
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
