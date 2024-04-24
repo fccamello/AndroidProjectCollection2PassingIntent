@@ -4,5 +4,22 @@
     <string name="btn_toast">Toast Button</string>
     <string name="btn_changebg">Change Background</string>
 
+    <string name="t1"> THE </string>
+    <string name="t2"> QUICK </string>
+    <string name="t3"> BROWN </string>
+    <string name="t4"> FOX </string>
+    <string name="t5"> JUMPS </string>
+    <string name="t6"> OVER </string>
+    <string name="t7"> THE  </string>
+    <string name="t8"> LAZY </string>
+    <string name="t9"> DOG </string>
+    <string name="t10"> HI </string>
+    <string name="t11"> HELLO  </string>
+    <string name="t12"> BUTTON </string>
+    <string name="t13"> COMPUTER </string>
+    <string name="t14"> JANE </string>
+
+
+
 
 </resources>
